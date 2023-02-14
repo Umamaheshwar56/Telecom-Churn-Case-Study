@@ -1,4 +1,4 @@
-# TELECOM - CHURN - CASE - STUDY
+# TELECOM CHURN CASE STUDY
 =====================================================================
 
 ### BUSINESS PROBLEM OVERVIEW
