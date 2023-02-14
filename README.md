@@ -1,6 +1,6 @@
-# **TELECOM - CHURN - CASE - STUDY
+#** TELECOM - CHURN - CASE - STUDY
 
-#BUSINESS PROBLEM OVERVIEW
+# BUSINESS PROBLEM OVERVIEW
 
 * All telecom customers can choose any service providers and actively switch from one operator to another. In our highly competitive telecom market, the    
   telecom industry undergone an annual average churn rate of 15-25%. 
@@ -14,7 +14,7 @@
 * In Our Case study, we analyse customer-level data of a leading telecom firm, build predictive models to identify customers who is in
   high risk of churn and identify the main indicators of churning.
 
-#CHURN - UNDERSTANDING
+# CHURN - UNDERSTANDING
 
 * Two main payment model in telecom industry - Postpaid (customers pay a monthly/annual bill after using the services) and Prepaid (customers pay/recharge with a   
   certain amount in advance and then use the services).
@@ -27,16 +27,16 @@
 
 * This project is based on the Indian and Southeast Asian market.
 
-#CHURN - DEFINITION
+# CHURN - DEFINITION
 
 * There are different ways to define churn, such as:
 
-#Revenue Based Churn: 
+# Revenue Based Churn: 
 
 * Customers who have not utilised any revenue-generating facilities such as mobile internet, outgoing calls, SMS etc. ie. they don’t generate 
   revenue but use the services. 
 
-#Usage-based churn: 
+# Usage-based churn: 
 
 * Customers who have not done any usage, either incoming or outgoing - in terms of calls, internet etc. over a period of time.
 
@@ -45,7 +45,7 @@
   
 * In this project, we will use the usage-based definition to define churn.
 
-#High-value Churn
+# High-value Churn
 
 * In India and the southeast Asia markets, approximately 80% of revenue comes from the top 20% customers (called high-value customers). Thus, if we can reduce 
   churn of the high-value customers, we will be able to reduce significant revenue leakage.
@@ -53,7 +53,7 @@
 * In our  project, we will show high-value customers based on a certain metric (mentioned later below) and predict churn only on high-value customers.
 
 
-#Understanding the Business Objective and the Data
+# Understanding the Business Objective and the Data
 
 * The business objective is to predict the churn in the last (i.e. the ninth) month using the data (features) from the first three months. 
 
@@ -79,7 +79,7 @@
 * Since we are working over a four-month window, the first two months are the ‘good’ phase, the third month is the ‘action’ phase, while the fourth month 
   is the ‘churn’ phase.
 
-#DATASET & DATA DICTIONARY
+# DATASET & DATA DICTIONARY
 
 The dataset can be downloaded from the link provided: https://drive.google.com/file/d/1SWnADIda31mVFevFcfkGtcgBHTKKI94J/view.
 
@@ -88,7 +88,7 @@ The dataset can be downloaded from the link provided: https://drive.google.com/f
 
 * The attributes containing 6, 7, 8, 9 as suffixes imply that those correspond to the months 6, 7, 8, 9 respectively.
 
-#Data Preparation
+# Data Preparation
 
 The following data preparation steps are crucial for this problem:
 
@@ -108,7 +108,7 @@ The following data preparation steps are crucial for this problem:
 
 * After tagging churners, then emove all the attributes corresponding to the churn phase (all attributes having ‘ _9’, etc. in their names).
 
-#MODELLING
+# MODELLING
 
 * Build models to predict churn. The predictive model will give two purposes:
 
@@ -141,7 +141,7 @@ Therefore, we will build another model with the main objective of identifying im
 After identifying important predictors, display them visually - we can use plots, summary tables etc. - whatever we think best conveys the importance of features.
 Finally, recommend strategies to manage customer churn based on our observations.
 
-#STRATEGIES CAN BE IMPLEMENTED
+# STRATEGIES CAN BE IMPLEMENTED
 
 * Promotional offers can also be very helpful.
 
