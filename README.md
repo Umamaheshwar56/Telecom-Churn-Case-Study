@@ -1,4 +1,5 @@
 ## TELECOM - CHURN - CASE - STUDY
+=====================================================================
 
 # BUSINESS PROBLEM OVERVIEW
 
