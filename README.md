@@ -89,7 +89,7 @@ The dataset can be downloaded from this [ link](https://drive.google.com/file/d/
 
 * The attributes containing 6, 7, 8, 9 as suffixes imply that those correspond to the months 6, 7, 8, 9 respectively.
 
-# Data Preparation
+### Data Preparation
 
 The following data preparation steps are crucial for this problem:
 
