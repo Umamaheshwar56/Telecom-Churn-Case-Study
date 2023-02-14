@@ -54,7 +54,7 @@
 * In our  project, we will show high-value customers based on a certain metric (mentioned later below) and predict churn only on high-value customers.
 
 
-# Understanding the Business Objective and the Data
+### Understanding the Business Objective and the Data
 
 * The business objective is to predict the churn in the last (i.e. the ninth) month using the data (features) from the first three months. 
 
@@ -80,7 +80,7 @@
 * Since we are working over a four-month window, the first two months are the ‘good’ phase, the third month is the ‘action’ phase, while the fourth month 
   is the ‘churn’ phase.
 
-# DATASET & DATA DICTIONARY
+### DATASET & DATA DICTIONARY
 
 The dataset can be downloaded from this [ link](https://drive.google.com/file/d/1SWnADIda31mVFevFcfkGtcgBHTKKI94J/view)
 
@@ -109,7 +109,7 @@ The following data preparation steps are crucial for this problem:
 
 * After tagging churners, then emove all the attributes corresponding to the churn phase (all attributes having ‘ _9’, etc. in their names).
 
-# MODELLING
+### MODELLING
 
 * Build models to predict churn. The predictive model will give two purposes:
 
@@ -142,7 +142,7 @@ Therefore, we will build another model with the main objective of identifying im
 After identifying important predictors, display them visually - we can use plots, summary tables etc. - whatever we think best conveys the importance of features.
 Finally, recommend strategies to manage customer churn based on our observations.
 
-# STRATEGIES CAN BE IMPLEMENTED
+### STRATEGIES CAN BE IMPLEMENTED
 
 * Promotional offers can also be very helpful.
 
