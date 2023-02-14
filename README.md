@@ -30,14 +30,14 @@
 
 # CHURN - DEFINITION
 
-* There are different ways to define churn, such as:
+* -There are different ways to define churn, such as:
 
-Revenue Based Churn: 
+-Revenue Based Churn: 
 
 * Customers who have not utilised any revenue-generating facilities such as mobile internet, outgoing calls, SMS etc. ie. they don’t generate 
   revenue but use the services. 
 
-sage-based churn: 
+-sage-based churn: 
 
 * Customers who have not done any usage, either incoming or outgoing - in terms of calls, internet etc. over a period of time.
 
@@ -46,7 +46,7 @@ sage-based churn:
   
 * In this project, we will use the usage-based definition to define churn.
 
-High-value Churn
+-High-value Churn
 
 * In India and the southeast Asia markets, approximately 80% of revenue comes from the top 20% customers (called high-value customers). Thus, if we can reduce 
   churn of the high-value customers, we will be able to reduce significant revenue leakage.
@@ -82,7 +82,7 @@ High-value Churn
 
 # DATASET & DATA DICTIONARY
 
-The dataset can be downloaded from the link provided:  [this link](https://drive.google.com/file/d/1SWnADIda31mVFevFcfkGtcgBHTKKI94J/view)
+The dataset can be downloaded from [this link](https://drive.google.com/file/d/1SWnADIda31mVFevFcfkGtcgBHTKKI94J/view)
 
 * The data dictionary contains meanings of abbreviations. Some frequent ones are loc (local), IC (incoming), OG (outgoing), T2T (telecom 
   operator to telecom operator), T2O (telecom operator to another operator), RECH (recharge) etc.
@@ -102,10 +102,10 @@ The following data preparation steps are crucial for this problem:
 * Tag churners and remove attributes of the churn phase, Now tag the churned customers (churn=1, else 0) based on the fourth month as follows: Those who have not made 
   any calls (either incoming or outgoing) AND have not used mobile internet even once in the churn phase. The attributes we need to use to tag churners are:
 
-  total_ic_mou_9
-  total_og_mou_9
-  vol_2g_mb_9
-  vol_3g_mb_9
+  -total_ic_mou_9
+  -total_og_mou_9
+  -vol_2g_mb_9
+  -vol_3g_mb_9
 
 * After tagging churners, then emove all the attributes corresponding to the churn phase (all attributes having ‘ _9’, etc. in their names).
 
