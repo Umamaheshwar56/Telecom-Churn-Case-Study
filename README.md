@@ -30,7 +30,7 @@
 
 # CHURN - DEFINITION
 
-* -There are different ways to define churn, such as:
+* There are different ways to define churn, such as:
 
 -Revenue Based Churn: 
 
