@@ -1,7 +1,7 @@
 # TELECOM - CHURN - CASE - STUDY
 =====================================================================
 
-# BUSINESS PROBLEM OVERVIEW
+### BUSINESS PROBLEM OVERVIEW
 
 * All telecom customers can choose any service providers and actively switch from one operator to another. In our highly competitive telecom market, the    
   telecom industry undergone an annual average churn rate of 15-25%. 
@@ -15,7 +15,7 @@
 * In Our Case study, we analyse customer-level data of a leading telecom firm, build predictive models to identify customers who is in
   high risk of churn and identify the main indicators of churning.
 
-# CHURN - UNDERSTANDING
+### CHURN - UNDERSTANDING
 
 * Two main payment model in telecom industry - Postpaid (customers pay a monthly/annual bill after using the services) and Prepaid (customers pay/recharge with a   
   certain amount in advance and then use the services).
@@ -28,7 +28,7 @@
 
 * This project is based on the Indian and Southeast Asian market.
 
-# CHURN - DEFINITION
+### CHURN - DEFINITION
 
 * There are different ways to define churn, such as:
 
