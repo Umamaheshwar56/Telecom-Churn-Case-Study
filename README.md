@@ -32,12 +32,12 @@
 
 * There are different ways to define churn, such as:
 
-# Revenue Based Churn: 
+Revenue Based Churn: 
 
 * Customers who have not utilised any revenue-generating facilities such as mobile internet, outgoing calls, SMS etc. ie. they don’t generate 
   revenue but use the services. 
 
-# Usage-based churn: 
+sage-based churn: 
 
 * Customers who have not done any usage, either incoming or outgoing - in terms of calls, internet etc. over a period of time.
 
@@ -46,7 +46,7 @@
   
 * In this project, we will use the usage-based definition to define churn.
 
-# High-value Churn
+High-value Churn
 
 * In India and the southeast Asia markets, approximately 80% of revenue comes from the top 20% customers (called high-value customers). Thus, if we can reduce 
   churn of the high-value customers, we will be able to reduce significant revenue leakage.
@@ -82,7 +82,7 @@
 
 # DATASET & DATA DICTIONARY
 
-The dataset can be downloaded from the link provided: https://drive.google.com/file/d/1SWnADIda31mVFevFcfkGtcgBHTKKI94J/view.
+The dataset can be downloaded from the link provided:  this link
 
 * The data dictionary contains meanings of abbreviations. Some frequent ones are loc (local), IC (incoming), OG (outgoing), T2T (telecom 
   operator to telecom operator), T2O (telecom operator to another operator), RECH (recharge) etc.
