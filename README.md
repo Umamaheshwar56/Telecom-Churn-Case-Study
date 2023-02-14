@@ -82,7 +82,7 @@
 
 # DATASET & DATA DICTIONARY
 
-The dataset can be downloaded from [this link](https://drive.google.com/file/d/1SWnADIda31mVFevFcfkGtcgBHTKKI94J/view)
+The dataset can be downloaded from this [ link](https://drive.google.com/file/d/1SWnADIda31mVFevFcfkGtcgBHTKKI94J/view)
 
 * The data dictionary contains meanings of abbreviations. Some frequent ones are loc (local), IC (incoming), OG (outgoing), T2T (telecom 
   operator to telecom operator), T2O (telecom operator to another operator), RECH (recharge) etc.
